@@ -163,11 +163,3 @@ from input import inp
 sch = parse(inp)
 
 solve('OUT', sch)
-
-print '---------'
-store, ore = run(sch)
-print ore
-print {y for x, y in store.items() if y != 0}
-store, ore = run(sch, m=840)
-print ore
-print {y for x, y in store.items() if y != 0}
